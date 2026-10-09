@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VERY+ALTERNATIVE</title>
+    <link href="/src/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-950">
+    
+    <div class="flex h-16 w-screen justify-center items-center bg-slate-800 text-2xl">
+      <div class="text-white">VERY+ </div>
+      <div class="text-green-600"> ALTERNATIVE</div>
+    </div>
+    <div class="w-screen p-4 text-justify">
+        <div class="text-white">The word very is one of the most common intensifiers in English and also one of the weakest. Overuse flattens writing and limits expression. use single-word alternatives that convey the same meaning with greater force and clarity. </div>
+    </div>
+    <div class=" text-white flex justify-around text-2xl p-4">
+        <div>VERY</div>
+        <div>+</div>
+        <div class="w-3/4"><input class="text-black w-full rounded" type="text" placeholder="type here" id="userInput"></div>
+    </div>
+    <button class="p-4 text-white flex text-center w-screen bg-gray-700" id="find" onclick="findSynonyms()">Find Alternatives</button>
+    <div>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="/src/script.js"></script>
+  </body>
+</html>
